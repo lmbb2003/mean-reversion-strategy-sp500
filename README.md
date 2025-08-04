@@ -2,14 +2,14 @@
 
 This project simulates a simple **mean-reversion trading strategy** using Python, with historical data from the S&P500 index.
 
-## 🧠 Idea
+##  Idea
 Buy when the price is **below its 20-day moving average**, expecting a reversion to the mean.
 
-## ⚙️ Tools Used
+##  Tools Used
 - Python (Pandas, NumPy, Matplotlib)
 - yfinance (to get historical market data)
 
-## 📊 Strategy Logic
+##  Strategy Logic
 1. Download historical price data (`^GSPC` - S&P500).
 2. Calculate 20-day moving average.
 3. Generate signal: 1 (long) if price < MA20, 0 otherwise.
